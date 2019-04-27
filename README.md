@@ -24,7 +24,7 @@ The `play-services-base` and `play-services-cast-framework` seemed to be the mos
 
 I restored an old archive I found of the codelab project they used and tested the sample project, but it doesn't function correctly anymore, and attempts to restore that project failed as well. Console output to Android Studio or Eclipse is possible by using the included edited .xml manifest to allow it to compile.
 
-At this point the project should build and run in Unity with no errors and the Chromecast should accept its connection, but then nothing. I can't get the callback to fire after its connected to the device, which starts the process of sending the remote texture over, which is very bizarre. The problem seems to be somewhere in the UnityBridge.jar file, and I have included the `classes.jar` file with the zip as well.
+At this point the project should build and run in Unity with no errors and the Chromecast should accept its connection, but then nothing. I can't get the callback to fire after its connected to the device, which starts the process of sending the remote texture over, which is very bizarre. The problem seems to be somewhere in the UnityBridge class, but I stepped through some basic bytecode to verify there were no script errors. I have included the `classes.jar` file with the zip as well if you want to run it through your own decompiler.
 
 ## Things To Try
 
