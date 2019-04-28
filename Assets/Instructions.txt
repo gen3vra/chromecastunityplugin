@@ -1,0 +1,12 @@
+AndroidManifest.xml
+
+<uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+
+build.gradle
+
+implementation 'com.google.android.gms:play-services-base:16.1.0'
+implementation 'com.google.android.gms:play-services-cast-framework:16.1.2'
+implementation 'com.android.volley:volley:1.1.1'
+
+https://pastebin.com/raw/xPdLGFjU
